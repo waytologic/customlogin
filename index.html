@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta name="author" content="Bhuvan">
+    <title>Login Form Design</title>
+
+    <!--font awesome(for icons)-->
+    <script src="fa2023.js" ></script>
+    <!--css file-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <video autoplay muted loop id="myVideo">
+    <source src="demo.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+    <div class="wrapper perspective-right">
+      <form action="#">
+        <h1>Login</h1>
+        <div class="input-box">
+          <i class="fas fa-envelope icon"></i>
+          <input type="email" required />
+          <label>Email Address</label>
+        </div>
+        <div class="input-box">
+          <i class="fas fa-lock icon"></i>
+          <input type="password" required />
+          <label>Password</label>
+        </div>
+
+        <div class="row">
+          <label><input type="checkbox" />Remember me</label>
+
+          <a href="#">Forgot password?</a>
+        </div>
+
+        <button type="submit" class="btn">Login</button>
+
+        <div class="signup-link">
+          <p>Don't have an account? <a href="#">Signup now</a></p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
